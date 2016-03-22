@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Geekhub. AJAX</title>
+	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+
+
+<h2>Пример использования простого AJAX:</h2>
+<p>В примере при выборе определенной страны в первом списке, появляются города которые относятся к даной стране во втором списке.</p>
+
+<select name="country">
+	<option value="0" selected="selected"></option>
+	<option value="1">Ukraine</option>
+	<option value="2">France</option>
+	<option value="3">England</option>
+</select>
+<select name="city">
+	<option value="0"></option>
+</select>
+
+<hr/>
+
+<h2>Использование AJAX вместе с файлом json:</h2>
+<p>В этом примере происходит обращение к массиву в файле json</p>
+<input id="button" type="button" value="Показать данные из файла JSON"/>
+<div id="textarea"></div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
